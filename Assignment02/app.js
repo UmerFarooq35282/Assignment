@@ -84,3 +84,47 @@ document.write(`<h1>“Value after decrementing: ${a} </h1>`);
 // (K)
 document.write(`<h1>“The remainder is: ${a % 3} </h1>`);
 
+
+// Question 04
+// Answer
+
+let costOfMovieTicket = 600;
+let totalPurchase = 5;
+
+document.write(`<h1>The total cost of buy ${totalPurchase} tickets to a movie is ${costOfMovieTicket * totalPurchase} PKR </h1>`);
+
+// Question 05
+// Answer
+let table = 5;
+// PRINT TABLE
+document.write(`<h1> ${table} X 1 = ${table * 1}</h1>`);
+document.write(`<h1> ${table} X 2 = ${table * 2}</h1>`);
+document.write(`<h1> ${table} X 3 = ${table * 3}</h1>`);
+document.write(`<h1> ${table} X 4 = ${table * 4}</h1>`);
+document.write(`<h1> ${table} X 5 = ${table * 5}</h1>`);
+document.write(`<h1> ${table} X 6 = ${table * 6}</h1>`);
+document.write(`<h1> ${table} X 7 = ${table * 7}</h1>`);
+document.write(`<h1> ${table} X 8 = ${table * 8}</h1>`);
+document.write(`<h1> ${table} X 9 = ${table * 9}</h1>`);
+document.write(`<h1> ${table} X 10 = ${table * 10}</h1>`);
+
+
+// Question 06
+// Answer
+
+// temprature Convertor
+// celsius Convert
+let celsius = 25;
+
+let fahrenheit = celsius * 9 / 5 + 32;
+
+document.write(`<h1>Temperature in Fahrenheit from Celsius ${celsius} ��C is ${fahrenheit} ��F</h1>`);
+
+// fahrenheit Convert
+let fahrenheit1 = 70;
+
+let celsius1 = (fahrenheit1 - 32) * 5 / 9;
+
+document.write(`<h1>Temperature in Celsius from Fahrenheit ${fahrenheit1} is ${celsius1} ��C</h1>`);
+
+
