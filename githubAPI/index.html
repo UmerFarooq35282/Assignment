@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100vw;
+            height: 100vh;
+        }
+        .container{
+            width: 500px;
+            background-color: #000;
+            color: #fff;
+            padding: 20px;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <p>UserName :: <span id="login-username"></span></p>
+      <p>Followers :: <span id="follower"></span></p>
+      <p>Public repos :: <span id="public_repos"></span></p>
+      <p>Company Name :: <span id="company"></span></p>
+      <img src="" alt="" srcset="" id="avatar_url">
+      <input type="text" placeholder="Enter UserName " id="username" />
+      <button onclick="getGithubInfo()">Search</button>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
